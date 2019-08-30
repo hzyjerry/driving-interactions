@@ -99,7 +99,7 @@ class Visualizer(object):
                 pickle.dump((self.history_u, self.history_x), f)
             self.reset()
     def control_loop(self, _=None):
-        #print "Time: ", time.time()
+        #print("Time: ", time.time())
         if self.paused:
             return
         if self.iters is not None and len(self.history_x[0])>=self.iters:
