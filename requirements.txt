@@ -1,3 +1,4 @@
 theano
 pyglet
 matplotlib
+# Incase running into issue with numpy&mkl: https://github.com/conda-forge/numpy-feedstock/issues/153
